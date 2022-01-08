@@ -30,5 +30,6 @@ for row in wiki_table_rows:
         pass
     pass
 
+df.to_csv('./timeline.csv')
 if __name__ == "__main__":
     pass
